@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ah6.0/javazsc/crm6.0/WebRoot/WEB-INF/lib/iJCF-2.5.1.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-aop-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-aspects-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-beans-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-context-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-context-indexer-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-context-support-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-core-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-expression-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-instrument-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-jcl-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-jdbc-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-jms-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-messaging-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-orm-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-oxm-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-test-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-tx-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-web-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-webflux-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-webmvc-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/frameworkjar/spring-framework-5.0.7.RELEASE/libs/spring-websocket-5.0.7.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
