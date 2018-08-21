@@ -12,9 +12,9 @@ public class EnumMain {
 
         String str = "SUMMER";
 
-        SeasonEnum.AUTUMM.name();
+        System.out.println("@@@@@@@=" + SeasonEnum.AUTUMM.name());
 
-        if(str.equals(SeasonEnum.SUMMER.name())) {
+        if (str.equals(SeasonEnum.SUMMER.name())) {
             System.out.println(" SUMMER is " + SeasonEnum.SUMMER);
         }
 
