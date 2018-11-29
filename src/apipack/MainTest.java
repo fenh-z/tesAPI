@@ -1,8 +1,6 @@
 package apipack;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,12 +17,28 @@ public class MainTest {
 
         map.put("1", 1);
 
-        if("2".equals(map.get("1"))){
+        if ("2".equals(map.get("1"))) {
             System.out.println(111111);
         }
 
         System.out.println(222222);
 
+        SubClass subClass = new SubClass();
+
     }
 
+}
+
+class MainClass {
+
+    public MainClass() {
+        System.out.println("this is mainclass");
+    }
+}
+
+class SubClass extends MainClass {
+
+    public SubClass() {
+        System.out.println("this is sbumainclass");
+    }
 }
