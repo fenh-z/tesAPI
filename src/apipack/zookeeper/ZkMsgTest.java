@@ -22,7 +22,7 @@ public class ZkMsgTest {
 
     public static void main(String[] args) {
 
-        String hostPort = "152.55.229.224:2193";
+        String hostPort = "localhost:2182";
         String zpath = "/";
 
         List<String> zooChildren;
@@ -57,7 +57,7 @@ public class ZkMsgTest {
 
                 System.out.println("version=" + stat.getVersion());
 
-                byte[] data = zk.getData("/testpatsh", true, stat);
+                byte[] data = zk.getData("/testpath", true, stat);
 
                 String dataStr = new String(data);
 
