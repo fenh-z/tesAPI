@@ -9,4 +9,5 @@ package apipack.common;
  */
 public class Constant {
 
+    public static final String ZK_BROKER_URL = "localhost:2182";
 }
