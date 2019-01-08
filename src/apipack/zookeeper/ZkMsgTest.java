@@ -21,7 +21,7 @@ public class ZkMsgTest {
     public static void main(String[] args) {
 
         String hostPort = "localhost:2182";
-        String zpath = "/";
+        String zpath = "/ZNODE_N1/Z1";
 
         List<String> zooChildren;
         ZooKeeper zk = null;
