@@ -9,6 +9,6 @@ package apipack.common;
  */
 public class Constant {
 
-    public static final String ZK_BROKER_URL = "localhost:2182,localhost:2181";
+    public static final String ZK_BROKER_URL = "152.55.229.220:2182,152.55.229.220:2181";
     public static final String ZNODE = "/ZK_NUM/Z1";
 }
