@@ -1,4 +1,4 @@
-package apipack.simpeltest;
+package apipack.simpletest;
 
 import com.sitech.jcfx.util.CodecPersonalityUtil;
 

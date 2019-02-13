@@ -1,4 +1,4 @@
-package apipack.simpeltest;
+package apipack.simpletest;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

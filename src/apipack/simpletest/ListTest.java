@@ -1,4 +1,4 @@
-package apipack.simpeltest;
+package apipack.simpletest;
 
 import java.util.ArrayList;
 import java.util.List;

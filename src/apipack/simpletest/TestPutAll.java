@@ -1,4 +1,4 @@
-package apipack.simpeltest;
+package apipack.simpletest;
 
 import java.util.HashMap;
 import java.util.Map;
