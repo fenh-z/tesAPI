@@ -25,14 +25,14 @@ public class TmpltParam {
         Arrays.stream(params).forEach(param -> {
 
             System.out.println();
-            System.out.println(param);
+            System.out.println("@@@@@==" + param);
 
             String subPrc = param.substring(0, param.indexOf("<"));
 
             String subParams = param.substring(param.indexOf("<") + 1, param.indexOf(">"));
 
-            System.out.println(subPrc);
-            System.out.println(subParams);
+            System.out.println("2222222==" + subPrc);
+            System.out.println("3333333==" + subParams);
         });
 
     }
