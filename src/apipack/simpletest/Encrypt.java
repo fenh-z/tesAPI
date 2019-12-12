@@ -15,8 +15,8 @@ public class Encrypt {
         String keyTmp = "7c01b847370ccc1d9740f676";
         String key = CodecPersonalityUtil.decodeRC2(keyTmp);
 
-        String encryptName = "01CHJIEKHCICONMKLL";
-        String encryptID = "01KJCHFGDMAKIJCBBCCIDEHNPLDGMLOLNLDGGHCKKCMEPPOCAO";
+        String encryptName = "01PIPCPEDKKOHCMEGECKOJCNFENOEBLNKK";
+        String encryptID = "01AKOKGFJEKADPPCBHFHPKLKFLJOJHDDIKENAPMJCKCDOGLNDK";
         String encryptAdd = "01NAFJJOJLJCGMOFDOCLAKFDKFOLOBCCDPJFHOBAOKNGBFHOOBBBHBCIBIMIEKNADDBIFKNFJLCMIIOODKFEBELPHLHOOMGKIMNAHKPCKOLMBBFBEK";
 
         String decryptName = CodecPersonalityUtil.decodeDES(encryptName.substring(2), key);
@@ -24,6 +24,17 @@ public class Encrypt {
         String decryptAdd = CodecPersonalityUtil.decodeDES(encryptAdd.substring(2), key);
 
         System.out.println("name = " + decryptName + "; ID = " + decryptID + "; Add = " + decryptAdd);
+
+
+        System.out.println("");
+
+        String userName = "ftp5511";
+        String userPwd = "q2#E5Ty&";
+
+        String encryptUserName = CodecPersonalityUtil.encodeRC2(userName);
+        String encryptUserPwd= CodecPersonalityUtil.encodeRC2(userPwd);
+
+        System.out.println("encryptUserName = " + encryptUserName + "; encryptUserPwd = " + encryptUserPwd );
 
     }
 
