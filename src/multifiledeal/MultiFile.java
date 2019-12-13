@@ -39,12 +39,15 @@ public class MultiFile {
 
                 lock = fc.tryLock();
 
-                System.out.println("22222");
-                files.add(file);
-                System.out.println("33333");
-                Thread.sleep(1000);
+                if (lock != null) {
 
-                lock.release();
+                    System.out.println("22222");
+                    files.add(file);
+                    System.out.println("33333");
+                    Thread.sleep(5000);
+
+                    lock.release();
+                }
 
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -67,9 +70,9 @@ public class MultiFile {
                         e.printStackTrace();
                     }
                 }
-                if (lock != null && lock.isValid()) {
+                if (lock != null) {
                     try {
-                        lock.close();
+                        lock.release();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
